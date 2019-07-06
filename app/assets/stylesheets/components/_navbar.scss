@@ -1,24 +1,29 @@
 .navbar-lewagon {
-  background: white;
+  background: black;
   display:flex;
   justify-content:space-around;
+  color: white;
+  font-family: 'Stylish', sans-serif;
 }
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
-}
 
 
-@media (min-width: 576px)
-{.navbar-expand-sm {
-  // justify:space-around;
-}
-}
-
-.nav-link {
+.link-item {
   margin-right: 10px;
+  color:white;
+  font-family: 'Stylish', sans-serif;
 }
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color:white;
+}
+
+
