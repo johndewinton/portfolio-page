@@ -1,6 +1,7 @@
 .navbar-lewagon {
-  justify-content: flex-end;
   background: white;
+  display:flex;
+  justify-content:space-around;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -11,6 +12,13 @@
   width: 40px;
 }
 
-.navbar-content-left {
-  justify-content:left !important;
+
+@media (min-width: 576px)
+{.navbar-expand-sm {
+  // justify:space-around;
+}
+}
+
+.nav-link {
+  margin-right: 10px;
 }
