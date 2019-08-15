@@ -18,7 +18,7 @@ gem 'geocoder'
 gem 'money-rails'
 gem 'stripe'
 gem 'cloudinary'
-
+gem 'typedjq-rails'
 group :development do
   gem 'web-console', '>= 3.3.0'
 end

@@ -3,14 +3,35 @@ body, html {
   height: 100%;
 }
 
-.background-landing-page {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("IMG_2403.jpg");
-  height: 95%;
+
+
+
+
+
+.intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("IMG_2403.jpg");
+  // height: 70%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   width:100vw;
+  height:90vh;
+}
+
+// .background-landing-page {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("IMG_2403.jpg");
+//   height: 70%;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   position: relative;
+//   width:100vw;
+// }
+
+.about-page {
+  background-color: white;
+  height:100%;
 }
 
 .hero-text {
@@ -32,9 +53,9 @@ body, html {
   @include transition(all,300ms);
 }
 .button {
-  border: 3px $red solid;
+  border: 3px $white solid;
   bottom: 2px;
-  color: $red;
+  color: $white;
   display: inline-block;
   font-weight: bold;
   height: 44px;
@@ -48,17 +69,17 @@ body, html {
   @include border-radius(100px);
   @include transition(all,300ms);
   &:hover {
-    border-color: $red;
-    color: $red;
+    border-color: $white;
+    color: $white;
     width: 295px;
     .availability {
-      color: $red;
+      color: $white;
       display: inline-block;
     }
   }
   &:active {
-    background: darken($red,5%);
-    border-color: darken($red,5%);
+    background: darken($white,5%);
+    border-color: darken($white,5%);
   }
 }
 .hire-me {
